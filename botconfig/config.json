@@ -1,0 +1,45 @@
+{
+   "prefix": "+",
+   "ownerIDS": [
+      "449579558446956544"
+   ],
+   "status": {
+      "text": "+help",
+      "type": "PLAYING",
+      "COMMENT:": "TYPES ARE: PLAYING, STREAMING, WATCHING, LISTENING",
+      "url": "https://discord.gg/sakshyam"
+   },
+   "clientsettings": {
+      "nodes": [
+         {
+            "host": "https://Naples-Bot.lettocomodo.repl.co",
+            "port": 3000,
+            "password": "test"
+         }
+      ]
+   },
+   "spotify": {
+      "clientSecret": "1b5aedea6eb04358aaebee7d76047f80",
+      "clientID": "b458566df412473d800daacdd5937e8f"
+   },
+   "settings": {
+      "COMMENT": "time_delay 0 === insta leave",
+      "leaveOnEmpty_Channel": {
+         "enabled": true,
+         "time_delay": 60000
+      },
+      "LeaveOnEmpty_Queue": {
+         "enabled": true,
+         "time_delay": 10000
+      },
+      "selfDeaf": true
+   },
+   "lyricssettings": {
+      "lyrics_finder": true,
+      "COMMENT": "my suggestion is to use ksoft_api on true and paste in the api key u can sign up, until u get the key use lyrics_finder which is way weaker but better the nothing",
+      "ksoft_api": {
+         "use_this_instead": true,
+         "api_key": ""
+      }
+   }
+}
